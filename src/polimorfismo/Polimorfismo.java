@@ -16,6 +16,16 @@ public class Polimorfismo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //Calculadora calc = new Calculadora();
+        //System.out.println(calc.somar(7, 2));//mudar metodo da sobrecarga,e digitar os valores diferentes. 
+        
+        Gato gato = new Gato();
+        Cachorro cachorro = new Cachorro();
+        Pato pato = new Pato();
+        
+        gato.comunicar();
+        cachorro.comunicar();
+        pato.comunicar();
     }
     
 }

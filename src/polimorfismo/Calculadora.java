@@ -18,7 +18,7 @@ public class Calculadora {
         return soma;
     }
 
-    public int somar(int v1, int v2, int v3) {
+    public int somar(int v1, int v2, int v3) {// metodos com mesmo nome , mas parametros e assinatura diferente
         int soma = v1 + v2 + v3;
         return soma;
     }
